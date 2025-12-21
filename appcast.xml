@@ -1,70 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
-  <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
-      <channel>
-          <title>Mozart says</title>
-          <link>https://github.com/RTC-Labs/mozart-says-releases</link>
-          <description>Most recent changes with links to updates.</description>
-          <language>en</language>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>Mozart says</title>
+        <link>https://github.com/RTC-Labs/float-message</link>
+        <description>Most recent changes with links to updates.</description>
+        <language>en</language>
 
-          <item>
-              <title>Version 1.0.2</title>
-              <pubDate>Sun, 15 Dec 2024 12:00:00 +0000</pubDate>
-              <sparkle:version>3</sparkle:version>
-              <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
-              <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-              <description><![CDATA[
-                  <h2>Version 1.0.2</h2>
-                  <ul>
-                      <li>Added "Give feedback" menu item</li>
-                  </ul>
-              ]]></description>
-              <enclosure
-                  url="https://github.com/RTC-Labs/mozart-says-releases/releases/download/v1.0.2/Mozart.says.dmg"
-                  sparkle:edSignature="UtSXVEhE/mpX9iDau9tdd+j7ZnqB6bwjx2Xp1YiQF4Ddu4WaiK5lVE5eSxKaG17JUtl7tUoZaZ5ZgLq5QyRBAw=="
-                  length="12482025"
-                  type="application/octet-stream"/>
-          </item>
+        <!-- Latest version entry -->
+        <item>
+            <title>Version 1.0.3</title>
+            <pubDate>Fri, 20 Dec 2024 20:00:00 +0000</pubDate>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>Version 1.0.3</h2>
+                <ul>
+                    <li>Added Pomodoro timer</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/RTC-Labs/mozart-says-releases/releases/download/v1.0.3/Mozart.says.dmg"
+                sparkle:edSignature="wQhkEw0ITDd32AEuuBZgxWui1q+dFI0rCvBYDvw7FPIB9CKuPFiW8LCUydQefBM0cxf8UijvbsAlV6O2IdS5Ag=="
+                length="14697632"
+                type="application/octet-stream"/>
+        </item>
 
-          <item>
-              <title>Version 1.0.1</title>
-              <pubDate>Sun, 15 Dec 2024 00:00:00 +0000</pubDate>
-              <sparkle:version>2</sparkle:version>
-              <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
-              <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-              <description><![CDATA[
-                  <h2>Version 1.0.1</h2>
-                  <ul>
-                      <li>Minor UI text fix</li>
-                  </ul>
-              ]]></description>
-              <enclosure
-                  url="https://github.com/RTC-Labs/mozart-says-releases/releases/download/v1.0.1/Mozart.says.dmg"
-                  sparkle:edSignature="AEvjPX82VoXNG0UrB4KB/dQZvhXZ2PF3mEnuCWOQLX204i+mzS2Rtc4TVwsVSwFbJiRBPVtzg280TgWbSKMSBQ=="
-                  length="12482855"
-                  type="application/octet-stream"/>
-          </item>
+        <item>
+            <title>Version 1.0.2</title>
+            <pubDate>Sun, 15 Dec 2024 12:00:00 +0000</pubDate>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>Version 1.0.2</h2>
+                <ul>
+                    <li>Added "Give feedback" menu item</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/RTC-Labs/mozart-says-releases/releases/download/v1.0.2/Mozart.says.dmg"
+                sparkle:edSignature="UtSXVEhE/mpX9iDau9tdd+j7ZnqB6bwjx2Xp1YiQF4Ddu4WaiK5lVE5eSxKaG17JUtl7tUoZaZ5ZgLq5QyRBAw=="
+                length="12482025"
+                type="application/octet-stream"/>
+        </item>
 
-          <item>
-              <title>Version 1.0.0</title>
-              <pubDate>Sat, 14 Dec 2024 00:00:00 +0000</pubDate>
-              <sparkle:version>1</sparkle:version>
-              <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
-              <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-              <description><![CDATA[
-                  <h2>Initial Release</h2>
-                  <ul>
-                      <li>Draggable Mozart avatar with animated GIFs</li>
-                      <li>Customizable floating text message</li>
-                      <li>Font, color, and size settings</li>
-                      <li>Launch at startup</li>
-                  </ul>
-              ]]></description>
-              <enclosure
-                  url="https://github.com/RTC-Labs/mozart-says-releases/releases/download/v1.0.0/Mozart.says.dmg"
-                  sparkle:edSignature="w0AAAwDj9kHQh1Wdl2onI2p/0PQe0u/y/qq7pe8aAWWRva36MjsQm70e2CUGWQy0FU77cu2igUsF6Mw5FI/VCw=="
-                  length="12480329"
-                  type="application/octet-stream"/>
-          </item>
+        <item>
+            <title>Version 1.0.1</title>
+            <pubDate>Sun, 15 Dec 2024 00:00:00 +0000</pubDate>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>Version 1.0.1</h2>
+                <ul>
+                    <li>Minor UI text fix</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/RTC-Labs/mozart-says-releases/releases/download/v1.0.1/Mozart.says.dmg"
+                sparkle:edSignature="AEvjPX82VoXNG0UrB4KB/dQZvhXZ2PF3mEnuCWOQLX204i+mzS2Rtc4TVwsVSwFbJiRBPVtzg280TgWbSKMSBQ=="
+                length="12482855"
+                type="application/octet-stream"/>
+        </item>
 
-      </channel>
-  </rss>
+        <!-- Previous version -->
+        <item>
+            <title>Version 1.0.0</title>
+            <pubDate>Sat, 14 Dec 2024 00:00:00 +0000</pubDate>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>Initial Release</h2>
+                <ul>
+                    <li>Draggable Mozart avatar with animated GIFs</li>
+                    <li>Customizable floating text message</li>
+                    <li>Font, color, and size settings</li>
+                    <li>Launch at startup</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/RTC-Labs/mozart-says-releases/releases/download/v1.0.0/Mozart.says.dmg"
+                sparkle:edSignature="w0AAAwDj9kHQh1Wdl2onI2p/0PQe0u/y/qq7pe8aAWWRva36MjsQm70e2CUGWQy0FU77cu2igUsF6Mw5FI/VCw=="
+                length="12480329"
+                type="application/octet-stream"/>
+        </item>
+
+    </channel>
+</rss>
